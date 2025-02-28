@@ -4,7 +4,8 @@ import styled from 'styled-components'
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { querierHeaders } from '../utils/data';
 
-const url = import.meta.env.VITE_LOCAL_SERVER_URL;
+// const url = import.meta.env.VITE_LOCAL_SERVER_URL;
+const url = import.meta.env.VITE_CLOUD_SERVER_URL;
 
 type OrderInfo = {
   creationDate: string
